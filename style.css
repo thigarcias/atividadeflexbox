@@ -1,0 +1,75 @@
+.base {
+    background-color: rgb(206, 205, 205);
+    border-radius: 5px;
+    margin-bottom: 15px;
+
+}
+
+h1 {
+    width: fit-content;
+    margin: auto;
+}
+
+.estilo {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.blocoazul {
+    background-color: #63B1BC;
+}
+
+.blocopreto {
+    background-color: #1F2A44;
+}
+
+.blocovermelho{
+    background-color: #ED145B;
+}
+.blocoamarelo {
+    background-color: #EFB661;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+}
+
+.container4{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container5 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container6{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.containerb{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.containerdesafio{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
